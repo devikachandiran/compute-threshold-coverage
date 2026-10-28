@@ -1,0 +1,31 @@
+1. Coverage of the strict rule (1e25) in 2025, by assumed halving time
+   halving time  5 months: coverage 0.11 [0.08-0.14]
+   halving time  8 months: coverage 0.15 [0.11-0.19]
+   halving time 14 months: coverage 0.26 [0.19-0.33]
+   halving time 24 months: coverage 0.42 [0.31-0.54]
+
+2. 2025, by threshold: detection (share of capable models caught) | false alarms (share of caught models that are below the capability tier) | models caught
+   1e23.00: detection 1.00 | false alarms 0.29 | caught 113
+   1e23.25: detection 1.00 | false alarms 0.25 | caught 105
+   1e23.50: detection 1.00 | false alarms 0.19 | caught 99
+   1e23.75: detection 1.00 | false alarms 0.11 | caught 89
+   1e24.00: detection 0.92 | false alarms 0.00 | caught 73
+   1e24.25: detection 0.68 | false alarms 0.00 | caught 54
+   1e24.50: detection 0.46 | false alarms 0.00 | caught 36
+   1e24.75: detection 0.27 | false alarms 0.00 | caught 21
+   1e25.00: detection 0.14 | false alarms 0.00 | caught 12
+   1e25.25: detection 0.10 | false alarms 0.00 | caught 8
+   1e25.50: detection 0.08 | false alarms 0.00 | caught 6
+
+3. If the threshold is reset to match the capability tier, then left unchanged for L months:
+   update every  3 months: average coverage 0.96 [0.75-1.00]
+   update every  6 months: average coverage 0.89 [0.67-1.00]
+   update every 12 months: average coverage 0.77 [0.50-0.96]
+   update every 18 months: average coverage 0.64 [0.41-0.92]
+   update every 24 months: average coverage 0.51 [0.30-0.79]
+
+4. Strict rule (1e25) coverage, open-weight vs closed models
+   open weights 2024: capable models 20 | coverage 0.18 [0.08-0.36]
+   open weights 2025: capable models 67 | coverage 0.06 [0.02-0.12]
+   closed       2024: capable models 12 | coverage 0.45 [0.25-0.71]
+   closed       2025: capable models 14 | coverage 0.57 [0.42-0.75]

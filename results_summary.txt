@@ -1,0 +1,21 @@
+Models used (language/multimodal, 2018+, with compute): 822
+Frontier-flagged models used for trend: 48
+Frontier compute growth per year: 5.1x (90% bootstrap: 4.6x to 5.6x)
+Capability tier: effective compute >= 1e25 FLOP in 2023-01 algorithm units
+2026 is a partial year (data to 23 Oct 2026).
+
+Fixed threshold 1e+24 FLOP
+  2023: tier models 6 | coverage 1.00 [1.00-1.00] | models caught 17
+  2024: tier models 32 | coverage 1.00 [0.80-1.00] | models caught 46
+  2025: tier models 80 | coverage 0.91 [0.68-1.00] | models caught 73
+  2026: tier models 24 | coverage 0.92 [0.83-1.00] | models caught 22
+Fixed threshold 3e+24 FLOP
+  2023: tier models 6 | coverage 1.00 [1.00-1.00] | models caught 8
+  2024: tier models 32 | coverage 0.77 [0.45-1.00] | models caught 25
+  2025: tier models 80 | coverage 0.47 [0.34-0.77] | models caught 38
+  2026: tier models 24 | coverage 0.67 [0.54-0.78] | models caught 15
+Fixed threshold 1e+25 FLOP
+  2023: tier models 6 | coverage 0.67 [0.38-1.00] | models caught 4
+  2024: tier models 32 | coverage 0.29 [0.15-0.46] | models caught 9
+  2025: tier models 80 | coverage 0.15 [0.10-0.24] | models caught 12
+  2026: tier models 24 | coverage 0.29 [0.18-0.39] | models caught 7
